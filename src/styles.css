@@ -1,0 +1,14 @@
+#root,
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: #ECEBE9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
