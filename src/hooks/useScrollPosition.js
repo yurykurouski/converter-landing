@@ -30,6 +30,7 @@ export const useScrollPosition = (effect, deps, element, useWindow, wait) => {
     const handleScroll = () => {
       if (wait) {
         if (throttleTimeout === null) {
+          /* eslint-disable */
           throttleTimeout = setTimeout(callBack, wait);
         }
       } else {
