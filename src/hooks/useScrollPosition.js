@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { useRef, useLayoutEffect } from 'react';
 
 const isBrowser = typeof window !== `undefined`

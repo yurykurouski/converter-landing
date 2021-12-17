@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React, { useState } from 'react';
 import { useScrollPosition } from '../../hooks/useScrollPosition';
 import { VIEWPORT_HEIGHT } from '../../constants';
