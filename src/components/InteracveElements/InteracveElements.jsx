@@ -14,7 +14,6 @@ export const InteracveElements = React.memo(({ onScrollDown }) => {
       onTouchEnd={handleTouchEnd}
     >
       <section className={`elements-container ${ isDownScroll ? 'hidden' : 'visible' }`}>
-        <span className="elements_title">Download from:</span>
         <a href="https://t.me/fancyconverter" target="_blank" rel="noreferrer">
           <img src={TelegramIcon} className='elements_icon' />
         </a>

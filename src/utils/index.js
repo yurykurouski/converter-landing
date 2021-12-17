@@ -1,2 +1,2 @@
 /* eslint-disable no-undef */
-export const checkIsScrollable = () => document.body.scrollHeight > document.body.clientHeight;
+export const checkIsMobileDevice = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);

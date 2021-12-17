@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { checkIsScrollable } from '../../utils';
+import { checkIsMobileDevice } from '../../utils';
 
 export const useHandleScroll = (onScrollDown) => {
   const [touchStartPosition, setTouchStartPosition] = useState(null);
   const [swipeDown, setSwipeDown] = useState(true);
-  const isScrollable = checkIsScrollable();
-
+  const isMobileDevice = checkIsMobileDevice();
+  
   const handleTouchStart = ({ targetTouches }) => setTouchStartPosition(targetTouches[0].clientY);
 
   const handleTouchEnd = ({ changedTouches }) => {
@@ -16,5 +16,5 @@ export const useHandleScroll = (onScrollDown) => {
     );
   }
 
-  return [handleTouchStart, handleTouchEnd, isScrollable ? onScrollDown : swipeDown];
+  return [handleTouchStart, handleTouchEnd, isMobileDevice ? swipeDown : onScrollDown];
 }
