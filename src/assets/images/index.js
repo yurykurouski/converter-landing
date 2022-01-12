@@ -1,7 +1,7 @@
-import FirstImage from './screenshot_0.png';
-import SecondImage from './screenshot_1.png';
-import ThirdImage from './screenshot_2.png';
-import FourthImage from './screenshot_3.png';
+import FirstImage from './screenshot_0-min.png';
+import SecondImage from './screenshot_1-min.png';
+import ThirdImage from './screenshot_2-min.png';
+import FourthImage from './screenshot_3-min.png';
 
 
 export const images1 = [
