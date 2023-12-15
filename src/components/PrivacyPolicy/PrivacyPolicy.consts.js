@@ -1,3 +1,3 @@
-export const POLICY_1 = 'Приложение не собирает НИКАКИХ личных данных, не имеет встроенной рекламы.'
+export const POLICY_1 = 'The application does NOT collect ANY personal data, has no built-in advertising.'
 
-export const POLICY_2 = 'В кэше приложения хранится только информация о выбранных валютах и кэшируюся загруженные курсы валют.'
+export const POLICY_2 = 'The application cache only stores information about selected currencies and cached loaded exchange rates.'
