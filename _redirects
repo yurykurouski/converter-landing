@@ -1,1 +1,2 @@
-/* /index.html 200
+# This rule will trigger at /blog/my-old-title
+/privacy   /privacy
