@@ -36,6 +36,15 @@
   transform: translateY(4em);
 }
 
+a.privacy-link {
+  font-size: 22px;
+  text-decoration: none;
+  color: 'black';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monospace;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
